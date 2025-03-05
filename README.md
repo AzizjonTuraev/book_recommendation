@@ -1,29 +1,28 @@
 # Book Recommendation System
 
-This project implements a book recommendation system using data from the [Book Recommendation Dataset on Kaggle](https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset/data). The dataset contains three CSV files: `book.csv`, `ratings.csv`, and `user.csv`, which are used for generating book recommendations.
+This project implements a book recommendation system using data from the [Book Recommendation Dataset on Kaggle](https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset/data). The dataset contains three CSV files: `book.csv`, `ratings.csv`, and `user.csv`, which generate book recommendations.
 
-<span style="color: red;">
-## Important Note
-    
-**Due to the size restriction of the GitHub Repo, I am skipping the following files. Please download them by yourself and replace them manually. For the sake of simplicity, I will create empty CSV and PKL files, which are supposed to be replaced.</span>
+```
+! Due to the size restriction of the Github Repo, I am skipping the following files. Please download it yourself and replace them manually. For the sake of simplicity, I will create empty csv and pkl files, which are supposed to be replaced
 
-<span style="color: red;">
-- `dataset/Books.csv` (must be replaced)
-- `dataset/Ratings.csv` (must be replaced)
-- `dataset/Users.csv` (optional)
-</span>
+### Must-Download Files 📌
 
-<span style="color: red;">
-The following files will be created automatically when `model/recommendation.ipynb` is executed:
-</span>
+dataset/Books.csv (must be replaced)
+dataset/Ratings.csv (must be replaced)
+dataset/Users.csv (optional)
 
-<span style="color: red;">
-- `server/server_artifacts/book_metadata.pkl`
-- `server/server_artifacts/book_ratings.pkl`
-- `server/server_artifacts/high_rated.pkl`
-- `server/server_artifacts/low_rated.pkl`
-- `server/server_artifacts/user_sim_matrix.pkl` ~ 4.2Gb
-</span>
+### Auto-Generated Files - you just need to run recommendation.ipynb 📌
+When executing `model/recommendation.ipynb`, the following files will be created automatically:
+
+server/server_artifacts/book_metadata.pkl
+server/server_artifacts/book_ratings.pkl
+server/server_artifacts/high_rated.pkl
+server/server_artifacts/low_rated.pkl
+server/server_artifacts/user_sim_matrix.pkl ~ 4.2Gb
+
+🚀 **Ensure you replace the required files before running the model!**
+
+```
 
 
 The system leverages cosine similarity to recommend books based on ratings and user preferences. It has both an API and a web interface for interacting with the recommendation system.
@@ -31,7 +30,7 @@ The system leverages cosine similarity to recommend books based on ratings and u
 ## Features
 - **Data Cleaning & Processing**: Cleaned and preprocessed the dataset to ensure data quality.
 - **Cosine Similarity**: Utilized cosine similarity to generate book recommendations.
-- **FastAPI Deployment**: Deployed the recommendation system using FastAPI.
+- **FastAPI Deployment**: The recommendation system was deployed using FastAPI.
 - **Docker Support**: Created a Dockerfile for easy deployment.
 - **Web Interface**: Built a simple web interface with HTML and JavaScript for interaction.
 
@@ -94,8 +93,8 @@ You can run the recommendation system either manually or by using Docker. Below 
 
 The API exposes four main functions, which are also accessible through the web interface:
 
-1. **Low Rated Books**: Get books with the lowest ratings from the dataset.
-2. **High Rated Books**: Get books with the highest ratings from the dataset.
+1. **Low-Rated Books**: Get books with the lowest ratings from the dataset.
+2. **High-Rated Books**: Get books with the highest ratings from the dataset.
 3. **Existing User IDs**: Retrieve all the existing user IDs in the dataset.
 4. **Book Recommendation for User ID**: Get book recommendations for a specific user based on their ratings and preferences.
 
