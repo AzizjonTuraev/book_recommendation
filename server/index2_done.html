@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Recommendation System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        #container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            padding: 20px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 10px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        #book-list-container {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        table {
+            width: 80%;
+            margin: 20px 0;
+            border-collapse: collapse;
+            text-align: left;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 10px;
+        }
+
+        img {
+            max-width: 100px;
+            height: auto;
+        }
+
+        .input-container {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .input-container input {
+            padding: 8px;
+            margin: 5px;
+            width: 200px;
+        }
+
+        .input-container button {
+            padding: 8px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Book Recommendation System</h1>
+    </header>
+
+    <div id="container">
+        <button onclick="handleLowRatedClick()">Low-Rated Books</button>
+        <button onclick="handleHighRatedClick()">High-Rated Books</button>
+        <button onclick="handleExistingUsersClick()">Existing Users</button>
+        <button onclick="handleRecommendationClick()">Get Recommendations</button>
+    </div>
+
+    <div id="input-container" class="input-container" style="display: none;">
+        <input type="number" id="num-books" placeholder="Enter number of books" />
+        <input type="number" id="user-id" placeholder="Enter User ID" style="display: none;" />
+        <button onclick="fetchBooksByType()">Submit</button>
+    </div>
+
+    <div id="book-list-container"></div>
+
+    <script src="script.js"></script> <!-- Include your JavaScript code here -->
+
+</body>
+</html>

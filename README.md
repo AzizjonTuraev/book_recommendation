@@ -2,6 +2,19 @@
 
 This project implements a book recommendation system using data from the [Book Recommendation Dataset on Kaggle](https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset/data). The dataset contains three CSV files: `book.csv`, `ratings.csv`, and `user.csv`, which are used for generating book recommendations.
 
+! Due to the size restriction of the Github Repo, I am skipping the following files. Please download it by yourself and replace them manually. For the sake of simplicity, I will create an empty csv and pkl files, which are supposed to be replaced
+
+- dataset/Books.csv (must be replaced)
+- dataset/Ratings.csv (must be replaced)
+- dataset/Users.csv (optional)
+
+The following files will be created automatically, when model/recommendation.ipynb is executed
+- server/server_artifacts/book_metadata.pkl
+- server/server_artifacts/book_ratings.pkl
+- server/server_artifacts/high_rated.pkl
+- server/server_artifacts/low_rated.pkl
+- server/server_artifacts/user_sim_matrix.pkl ~ 4.2Gb
+
 The system leverages cosine similarity to recommend books based on ratings and user preferences. It has both an API and a web interface for interacting with the recommendation system.
 
 ## Features
@@ -16,6 +29,7 @@ To run the application locally, you’ll need:
 - Python 3.x
 - Docker (for running in a container)
 - Uvicorn for FastAPI
+- ~4.5 Gb Memory for dataset and saving the models to run APIs
 
 ## Running the Application
 
