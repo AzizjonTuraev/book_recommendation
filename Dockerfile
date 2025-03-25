@@ -10,8 +10,9 @@ RUN apt-get update && apt-get install -y \
 COPY . .                                          
 RUN pip install --no-cache-dir -r requirements.txt
 EXPOSE 8000
-CMD ["uvicorn", "server.server_api:app", "--reload"]
+#CMD ["uvicorn", "server.server_api:app", "--reload"]
+CMD ["uvicorn", "server.server_api:app", "--host", "0.0.0.0", "--port", "8000"]
 
 ### Commands to run the Dockerfile
 # docker build -t recommendation_books:latest -f Dockerfile .
-# docker run -p 8000:8000 recommendation_books:latest
+# docker run -p 8000:8000 recommendation_books:latest uvicorn server.server_api:app --host 0.0.0.0 --port 8000
