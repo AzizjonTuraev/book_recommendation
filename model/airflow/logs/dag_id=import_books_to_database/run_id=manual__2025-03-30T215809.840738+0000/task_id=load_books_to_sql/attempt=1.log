@@ -1,0 +1,28 @@
+[2025-03-30T21:58:16.559+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-03-30T21:58:16.638+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: import_books_to_database.load_books_to_sql manual__2025-03-30T21:58:09.840738+00:00 [queued]>
+[2025-03-30T21:58:16.694+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: import_books_to_database.load_books_to_sql manual__2025-03-30T21:58:09.840738+00:00 [queued]>
+[2025-03-30T21:58:16.698+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-03-30T21:58:16.774+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): load_books_to_sql> on 2025-03-30 21:58:09.840738+00:00
+[2025-03-30T21:58:16.798+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=268) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-03-30T21:58:16.806+0000] {standard_task_runner.py:72} INFO - Started process 269 to run task
+[2025-03-30T21:58:16.802+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'import_books_to_database', 'load_books_to_sql', 'manual__2025-03-30T21:58:09.840738+00:00', '--job-id', '32', '--raw', '--subdir', 'DAGS_FOLDER/etl_books.py', '--cfg-path', '/tmp/tmp5kjkr5qr']
+[2025-03-30T21:58:16.809+0000] {standard_task_runner.py:105} INFO - Job 32: Subtask load_books_to_sql
+[2025-03-30T21:58:17.025+0000] {task_command.py:467} INFO - Running <TaskInstance: import_books_to_database.load_books_to_sql manual__2025-03-30T21:58:09.840738+00:00 [running]> on host 3947a336792d
+[2025-03-30T21:58:17.446+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='azizjon' AIRFLOW_CTX_DAG_ID='import_books_to_database' AIRFLOW_CTX_TASK_ID='load_books_to_sql' AIRFLOW_CTX_EXECUTION_DATE='2025-03-30T21:58:09.840738+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-30T21:58:09.840738+00:00'
+[2025-03-30T21:58:17.454+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-03-30T21:58:17.611+0000] {base.py:84} INFO - Retrieving connection 'postgres_localhost'
+[2025-03-30T21:58:50.525+0000] {logging_mixin.py:190} INFO - 
+=== MALFORMED ROWS SKIPPED ===
+[2025-03-30T21:58:50.527+0000] {logging_mixin.py:190} INFO - Line 209540: ['078946697X', 'DK Readers: Creating the X-Men, How It All Began (Level 4: Proficient Readers)\\";Michael Teitelbaum"', '2000', 'DK Publishing Inc', 'http://images.amazon.com/images/P/078946697X.01.THUMBZZZ.jpg', 'http://images.amazon.com/images/P/078946697X.01.MZZZZZZZ.jpg', 'http://images.amazon.com/images/P/078946697X.01.LZZZZZZZ.jpg', ''] | Error: invalid literal for int() with base 10: 'DK Publishing Inc'
+[2025-03-30T21:58:50.528+0000] {logging_mixin.py:190} INFO - Line 220733: ['2070426769', 'Peuple du ciel, suivi de \'Les Bergers\\";Jean-Marie Gustave Le ClÃ?Â©zio"', '2003', 'Gallimard', 'http://images.amazon.com/images/P/2070426769.01.THUMBZZZ.jpg', 'http://images.amazon.com/images/P/2070426769.01.MZZZZZZZ.jpg', 'http://images.amazon.com/images/P/2070426769.01.LZZZZZZZ.jpg', ''] | Error: invalid literal for int() with base 10: 'Gallimard'
+[2025-03-30T21:58:50.530+0000] {logging_mixin.py:190} INFO - Line 221680: ['0789466953', 'DK Readers: Creating the X-Men, How Comic Books Come to Life (Level 4: Proficient Readers)\\";James Buckley"', '2000', 'DK Publishing Inc', 'http://images.amazon.com/images/P/0789466953.01.THUMBZZZ.jpg', 'http://images.amazon.com/images/P/0789466953.01.MZZZZZZZ.jpg', 'http://images.amazon.com/images/P/0789466953.01.LZZZZZZZ.jpg', ''] | Error: invalid literal for int() with base 10: 'DK Publishing Inc'
+[2025-03-30T21:58:50.531+0000] {logging_mixin.py:190} INFO - 
+Total bad rows: 3
+[2025-03-30T21:58:50.560+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-03-30T21:58:50.603+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-03-30T21:58:50.607+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=import_books_to_database, task_id=load_books_to_sql, run_id=manual__2025-03-30T21:58:09.840738+00:00, execution_date=20250330T215809, start_date=20250330T215816, end_date=20250330T215850
+[2025-03-30T21:58:50.735+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-03-30T21:58:50.784+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-03-30T21:58:50.790+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

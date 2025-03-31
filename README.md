@@ -1,6 +1,10 @@
 # Book Recommendation System
 
-This project implements a book recommendation system using data from the [Book Recommendation Dataset on Kaggle](https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset/data). The dataset contains three CSV files: `book.csv`, `ratings.csv`, and `user.csv`, which generate book recommendations.
+This is the full Data Engineering and Data Science project, which implements a book recommendation system using data from the [Book Recommendation Dataset on Kaggle](https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset/data). The dataset contains three CSV files: `book.csv`, `ratings.csv`, and `user.csv`, which generate book recommendations.
+
+### Project Structure Overview
+![Screenshot](temp/pics/books_recom.png)
+
 
 ```
 ! Due to the size restriction of the Github Repo, I am skipping the following files. Please download it yourself and replace them manually. For the sake of simplicity, I will create empty csv and pkl files, which are supposed to be replaced
@@ -29,6 +33,8 @@ The system leverages cosine similarity to recommend books based on ratings and u
 
 ## Features
 - **Data Cleaning & Processing**: Cleaned and preprocessed the dataset to ensure data quality.
+- **ETL using Apache Airflow**: Automating ETL process.
+- **Connecting to other Data&Business Analysis Tools**: Connecting Apache Airflow to PostSQL and PostSQL to PowerBI.
 - **Cosine Similarity**: Utilized cosine similarity to generate book recommendations.
 - **FastAPI Deployment**: The recommendation system was deployed using FastAPI.
 - **Docker Support**: Created a Dockerfile for easy deployment.
@@ -45,27 +51,34 @@ To run the application locally, you’ll need:
 
 You can run the recommendation system either manually or by using Docker. Below are the instructions for both methods:
 
-### Method 1: Run using Docker
+### Method 1: Execution using Docker
 
-1. **Build the Docker image**:
+1. **Initiate Apache Airflow**:
+
+    ```bash
+    docker compose up airflow-init
+    docker compose up
+    ```
+
+2. **Connecting to external Analysis Tools**:
+
+    Now you can go to the http://localhost:8080/home on your browser to access to Apache Airflow.
+    You also need to connect Apache Airflow to SQL (any Relational SQL databases - in this case Dbeawer is used) and SQL to PowerBI. You can find how to connect it on the pdf file on the project -  [flowchart ↗️] (flowchart.pdf)
+
+3. **Build the Docker image**:
 
     ```bash
     docker build -t recommendation_books .
-    ```
-
-2. **Run the Docker container**:
-
-    ```bash
     docker run -p 8000:8000 recommendation_books
     ```
 
     This will expose the FastAPI app on `http://127.0.0.1:8000`.
 
-3. **Access the application**:
+4. **Access the application**:
     - **FastAPI Docs**: You can access the auto-generated documentation and interact with the API at `http://127.0.0.1:8000/docs`.
     - **Web interface**: Open `index.html` in your browser to use a more user-friendly interface for interacting with the recommendation system.
 
-### Method 2: Run manually using Uvicorn
+### Method 2: Manual execution using Uvicorn - on Machine Learning Part only
 
 1. **Install dependencies**:
 
@@ -123,12 +136,23 @@ recommendation_books/
 ├── Dockerfile               
 ├── requirements.txt         
 ├── README.md
-├── dataset/
-│   ├── Books.csv
-│   ├── Ratings.csv
-│   ├── Users.csv        
+├── powerbi_book_recommendations.pdf
+├── flowchart.pdf
 ├── model/
+│──── airflow/
 │   ├── recommendation.ipynb        
+│   ├── docker-compose.yml
+│────── dags/
+│      ├── etl_books.py
+│      ├── etl_users.py
+│      ├── etl_ratings.py
+│      ├── create_sql_tables.py
+│      ├── users_data_cleaning.py
+│──────── dataset/
+│         ├── Books.csv
+│         ├── Ratings.csv
+│         ├── Users.csv        
+│────── ../
 ├── server/
 │   ├── server_api.py        
 │   ├── server_utils.py
@@ -147,15 +171,24 @@ recommendation_books/
 
 ## Project Screenshots
 
+### Apache Airflow - ETL
+![Screenshot](temp/pics/airflow_dags.png)
+
+### SQL Server
+![Screenshot](temp/pics/checking_for_sql_database.png)
+
+### Power BI
+![Screenshot](temp/pics/sql_usage_on_powerbi.png)
+
 ### Web Interface
-![Web Interface Screenshot](temp/pics/image_webpage.png)
+![Screenshot](temp/pics/image_webpage.png)
 
 ### Fast API Interface
-![API Documentation Screenshot](temp/pics/image_fastapi.png)
+![Screenshot](temp/pics/image_fastapi.png)
 
 ### Postman Example 1 - Post Method
-![Web Interface Screenshot](temp/pics/image_postman_post.png)
+![Screenshot](temp/pics/image_postman_post.png)
 
 ### Postman Example 2 - Get Method
-![API Documentation Screenshot](temp/pics/image_postman_get.png)
+![Screenshot](temp/pics/image_postman_get.png)
 

@@ -1,0 +1,11 @@
+# Ignore all model and dataset directories
+model/
+dataset/
+
+# Standard ignores
+**/__pycache__/
+*.py[cod]
+.DS_Store
+.env
+*.swp
+*.log
