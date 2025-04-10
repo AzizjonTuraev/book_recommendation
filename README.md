@@ -63,7 +63,7 @@ You can run the recommendation system either manually or by using Docker. Below 
 2. **Connecting to external Analysis Tools**:
 
     Now you can go to the http://localhost:8080/home on your browser to access to Apache Airflow.
-    You also need to connect Apache Airflow to SQL (any Relational SQL databases - in this case Dbeawer is used) and SQL to PowerBI. You can find how to connect it on the pdf file on the project -  [flowchart ↗️] (flowchart.pdf)
+    You also need to connect Apache Airflow to SQL (any Relational SQL databases - in this case Dbeawer is used) and SQL to PowerBI. You can find how to connect it on the pdf file on the project -  [flowchart ↗️](flowchart.pdf)
 
 3. **Build the Docker image**:
 
