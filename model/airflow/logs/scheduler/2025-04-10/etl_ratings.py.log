@@ -1,0 +1,182 @@
+[2025-04-10T18:45:58.478+0000] {processor.py:186} INFO - Started process (PID=47) to work on /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:45:58.484+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_ratings.py for tasks to queue
+[2025-04-10T18:45:58.506+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:45:58.498+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:45:58.608+0000] {processor.py:925} INFO - DAG(s) 'import_ratings_to_database' retrieved from /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:45:59.062+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:45:59.061+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-10T18:45:59.140+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:45:59.139+0000] {dag.py:4180} INFO - Setting next_dagrun for import_ratings_to_database to 2025-04-11 00:00:00+00:00, run_after=2025-04-12 00:00:00+00:00
+[2025-04-10T18:45:59.216+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_ratings.py took 0.760 seconds
+[2025-04-10T18:46:29.915+0000] {processor.py:186} INFO - Started process (PID=60) to work on /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:46:29.918+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_ratings.py for tasks to queue
+[2025-04-10T18:46:29.926+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:46:29.925+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:46:29.982+0000] {processor.py:925} INFO - DAG(s) 'import_ratings_to_database' retrieved from /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:46:30.322+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:46:30.321+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-10T18:46:30.392+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:46:30.391+0000] {dag.py:4180} INFO - Setting next_dagrun for import_ratings_to_database to 2025-04-11 00:00:00+00:00, run_after=2025-04-12 00:00:00+00:00
+[2025-04-10T18:46:30.457+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_ratings.py took 0.555 seconds
+[2025-04-10T18:47:01.485+0000] {processor.py:186} INFO - Started process (PID=72) to work on /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:47:01.488+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_ratings.py for tasks to queue
+[2025-04-10T18:47:01.494+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:47:01.494+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:47:01.549+0000] {processor.py:925} INFO - DAG(s) 'import_ratings_to_database' retrieved from /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:47:01.823+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:47:01.822+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-10T18:47:01.889+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:47:01.889+0000] {dag.py:4180} INFO - Setting next_dagrun for import_ratings_to_database to 2025-04-11 00:00:00+00:00, run_after=2025-04-12 00:00:00+00:00
+[2025-04-10T18:47:01.962+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_ratings.py took 0.494 seconds
+[2025-04-10T18:47:32.274+0000] {processor.py:186} INFO - Started process (PID=84) to work on /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:47:32.300+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_ratings.py for tasks to queue
+[2025-04-10T18:47:32.308+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:47:32.306+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:47:32.385+0000] {processor.py:925} INFO - DAG(s) 'import_ratings_to_database' retrieved from /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:47:32.718+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:47:32.717+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-10T18:47:32.775+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:47:32.775+0000] {dag.py:4180} INFO - Setting next_dagrun for import_ratings_to_database to 2025-04-11 00:00:00+00:00, run_after=2025-04-12 00:00:00+00:00
+[2025-04-10T18:47:32.825+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_ratings.py took 0.583 seconds
+[2025-04-10T18:48:03.641+0000] {processor.py:186} INFO - Started process (PID=96) to work on /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:48:03.644+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_ratings.py for tasks to queue
+[2025-04-10T18:48:03.649+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:48:03.649+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:48:03.713+0000] {processor.py:925} INFO - DAG(s) 'import_ratings_to_database' retrieved from /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:48:03.982+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:48:03.981+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-10T18:48:04.031+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:48:04.030+0000] {dag.py:4180} INFO - Setting next_dagrun for import_ratings_to_database to 2025-04-11 00:00:00+00:00, run_after=2025-04-12 00:00:00+00:00
+[2025-04-10T18:48:04.081+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_ratings.py took 0.455 seconds
+[2025-04-10T18:48:34.503+0000] {processor.py:186} INFO - Started process (PID=108) to work on /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:48:34.505+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_ratings.py for tasks to queue
+[2025-04-10T18:48:34.510+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:48:34.510+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:48:34.560+0000] {processor.py:925} INFO - DAG(s) 'import_ratings_to_database' retrieved from /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:48:34.869+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:48:34.869+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-10T18:48:34.945+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:48:34.943+0000] {dag.py:4180} INFO - Setting next_dagrun for import_ratings_to_database to 2025-04-11 00:00:00+00:00, run_after=2025-04-12 00:00:00+00:00
+[2025-04-10T18:48:35.000+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_ratings.py took 0.510 seconds
+[2025-04-10T18:49:05.231+0000] {processor.py:186} INFO - Started process (PID=120) to work on /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:49:05.233+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_ratings.py for tasks to queue
+[2025-04-10T18:49:05.242+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:49:05.240+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:49:05.309+0000] {processor.py:925} INFO - DAG(s) 'import_ratings_to_database' retrieved from /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:49:05.707+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:49:05.706+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-10T18:49:05.770+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:49:05.770+0000] {dag.py:4180} INFO - Setting next_dagrun for import_ratings_to_database to 2025-04-11 00:00:00+00:00, run_after=2025-04-12 00:00:00+00:00
+[2025-04-10T18:49:06.168+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_ratings.py took 0.950 seconds
+[2025-04-10T18:49:36.506+0000] {processor.py:186} INFO - Started process (PID=132) to work on /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:49:36.512+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_ratings.py for tasks to queue
+[2025-04-10T18:49:36.520+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:49:36.519+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:49:36.625+0000] {processor.py:925} INFO - DAG(s) 'import_ratings_to_database' retrieved from /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:49:36.927+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:49:36.927+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-10T18:49:37.216+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:49:37.215+0000] {dag.py:4180} INFO - Setting next_dagrun for import_ratings_to_database to 2025-04-11 00:00:00+00:00, run_after=2025-04-12 00:00:00+00:00
+[2025-04-10T18:49:37.269+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_ratings.py took 0.784 seconds
+[2025-04-10T18:50:07.632+0000] {processor.py:186} INFO - Started process (PID=148) to work on /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:50:07.634+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_ratings.py for tasks to queue
+[2025-04-10T18:50:07.639+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:50:07.638+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:50:07.682+0000] {processor.py:925} INFO - DAG(s) 'import_ratings_to_database' retrieved from /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:50:07.950+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:50:07.950+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-10T18:50:08.003+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:50:08.002+0000] {dag.py:4180} INFO - Setting next_dagrun for import_ratings_to_database to 2025-04-11 00:00:00+00:00, run_after=2025-04-12 00:00:00+00:00
+[2025-04-10T18:50:08.066+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_ratings.py took 0.447 seconds
+[2025-04-10T18:50:38.230+0000] {processor.py:186} INFO - Started process (PID=164) to work on /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:50:38.232+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_ratings.py for tasks to queue
+[2025-04-10T18:50:38.238+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:50:38.238+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:50:38.284+0000] {processor.py:925} INFO - DAG(s) 'import_ratings_to_database' retrieved from /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:50:38.543+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:50:38.542+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-10T18:50:38.588+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:50:38.587+0000] {dag.py:4180} INFO - Setting next_dagrun for import_ratings_to_database to 2025-04-11 00:00:00+00:00, run_after=2025-04-12 00:00:00+00:00
+[2025-04-10T18:50:38.635+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_ratings.py took 0.418 seconds
+[2025-04-10T18:51:09.040+0000] {processor.py:186} INFO - Started process (PID=176) to work on /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:51:09.044+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_ratings.py for tasks to queue
+[2025-04-10T18:51:09.050+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:51:09.049+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:51:09.110+0000] {processor.py:925} INFO - DAG(s) 'import_ratings_to_database' retrieved from /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:51:09.477+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:51:09.476+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-10T18:51:09.543+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:51:09.542+0000] {dag.py:4180} INFO - Setting next_dagrun for import_ratings_to_database to 2025-04-11 00:00:00+00:00, run_after=2025-04-12 00:00:00+00:00
+[2025-04-10T18:51:09.633+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_ratings.py took 0.608 seconds
+[2025-04-10T18:51:40.050+0000] {processor.py:186} INFO - Started process (PID=188) to work on /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:51:40.053+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_ratings.py for tasks to queue
+[2025-04-10T18:51:40.059+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:51:40.058+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:51:40.107+0000] {processor.py:925} INFO - DAG(s) 'import_ratings_to_database' retrieved from /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:51:40.445+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:51:40.444+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-10T18:51:40.511+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:51:40.511+0000] {dag.py:4180} INFO - Setting next_dagrun for import_ratings_to_database to 2025-04-11 00:00:00+00:00, run_after=2025-04-12 00:00:00+00:00
+[2025-04-10T18:51:40.890+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_ratings.py took 0.857 seconds
+[2025-04-10T18:52:11.186+0000] {processor.py:186} INFO - Started process (PID=200) to work on /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:52:11.188+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_ratings.py for tasks to queue
+[2025-04-10T18:52:11.196+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:52:11.194+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:52:11.246+0000] {processor.py:925} INFO - DAG(s) 'import_ratings_to_database' retrieved from /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:52:11.591+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:52:11.591+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-10T18:52:11.974+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:52:11.973+0000] {dag.py:4180} INFO - Setting next_dagrun for import_ratings_to_database to 2025-04-11 00:00:00+00:00, run_after=2025-04-12 00:00:00+00:00
+[2025-04-10T18:52:12.028+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_ratings.py took 0.857 seconds
+[2025-04-10T18:52:42.147+0000] {processor.py:186} INFO - Started process (PID=212) to work on /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:52:42.150+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_ratings.py for tasks to queue
+[2025-04-10T18:52:42.156+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:52:42.155+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:52:42.208+0000] {processor.py:925} INFO - DAG(s) 'import_ratings_to_database' retrieved from /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:52:42.559+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:52:42.558+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-10T18:52:43.033+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:52:43.032+0000] {dag.py:4180} INFO - Setting next_dagrun for import_ratings_to_database to 2025-04-11 00:00:00+00:00, run_after=2025-04-12 00:00:00+00:00
+[2025-04-10T18:52:43.086+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_ratings.py took 0.953 seconds
+[2025-04-10T18:53:13.996+0000] {processor.py:186} INFO - Started process (PID=224) to work on /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:53:13.998+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_ratings.py for tasks to queue
+[2025-04-10T18:53:14.005+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:53:14.004+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:53:14.053+0000] {processor.py:925} INFO - DAG(s) 'import_ratings_to_database' retrieved from /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:53:14.372+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:53:14.371+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-10T18:53:14.426+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:53:14.425+0000] {dag.py:4180} INFO - Setting next_dagrun for import_ratings_to_database to 2025-04-11 00:00:00+00:00, run_after=2025-04-12 00:00:00+00:00
+[2025-04-10T18:53:14.479+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_ratings.py took 0.497 seconds
+[2025-04-10T18:53:44.720+0000] {processor.py:186} INFO - Started process (PID=235) to work on /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:53:44.723+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_ratings.py for tasks to queue
+[2025-04-10T18:53:44.730+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:53:44.729+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:53:44.783+0000] {processor.py:925} INFO - DAG(s) 'import_ratings_to_database' retrieved from /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:53:45.069+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:53:45.068+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-10T18:53:45.122+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:53:45.121+0000] {dag.py:4180} INFO - Setting next_dagrun for import_ratings_to_database to 2025-04-11 00:00:00+00:00, run_after=2025-04-12 00:00:00+00:00
+[2025-04-10T18:53:45.177+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_ratings.py took 0.471 seconds
+[2025-04-10T18:54:15.472+0000] {processor.py:186} INFO - Started process (PID=247) to work on /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:54:15.474+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_ratings.py for tasks to queue
+[2025-04-10T18:54:15.480+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:54:15.479+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:54:15.526+0000] {processor.py:925} INFO - DAG(s) 'import_ratings_to_database' retrieved from /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:54:15.845+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:54:15.845+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-10T18:54:15.898+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:54:15.897+0000] {dag.py:4180} INFO - Setting next_dagrun for import_ratings_to_database to 2025-04-11 00:00:00+00:00, run_after=2025-04-12 00:00:00+00:00
+[2025-04-10T18:54:15.950+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_ratings.py took 0.493 seconds
+[2025-04-10T18:54:46.226+0000] {processor.py:186} INFO - Started process (PID=259) to work on /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:54:46.228+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_ratings.py for tasks to queue
+[2025-04-10T18:54:46.235+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:54:46.234+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:54:46.288+0000] {processor.py:925} INFO - DAG(s) 'import_ratings_to_database' retrieved from /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:54:46.598+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:54:46.598+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-10T18:54:46.655+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:54:46.655+0000] {dag.py:4180} INFO - Setting next_dagrun for import_ratings_to_database to 2025-04-11 00:00:00+00:00, run_after=2025-04-12 00:00:00+00:00
+[2025-04-10T18:54:46.979+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_ratings.py took 0.768 seconds
+[2025-04-10T18:55:17.865+0000] {processor.py:186} INFO - Started process (PID=271) to work on /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:55:17.867+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_ratings.py for tasks to queue
+[2025-04-10T18:55:17.874+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:55:17.873+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:55:17.927+0000] {processor.py:925} INFO - DAG(s) 'import_ratings_to_database' retrieved from /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:55:18.201+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:55:18.200+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-10T18:55:18.533+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:55:18.532+0000] {dag.py:4180} INFO - Setting next_dagrun for import_ratings_to_database to 2025-04-11 00:00:00+00:00, run_after=2025-04-12 00:00:00+00:00
+[2025-04-10T18:55:18.576+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_ratings.py took 0.725 seconds
+[2025-04-10T18:55:49.064+0000] {processor.py:186} INFO - Started process (PID=283) to work on /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:55:49.066+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_ratings.py for tasks to queue
+[2025-04-10T18:55:49.072+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:55:49.071+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:55:49.126+0000] {processor.py:925} INFO - DAG(s) 'import_ratings_to_database' retrieved from /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:55:49.444+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:55:49.443+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-10T18:55:49.508+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:55:49.508+0000] {dag.py:4180} INFO - Setting next_dagrun for import_ratings_to_database to 2025-04-11 00:00:00+00:00, run_after=2025-04-12 00:00:00+00:00
+[2025-04-10T18:55:49.563+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_ratings.py took 0.513 seconds
+[2025-04-10T18:56:20.228+0000] {processor.py:186} INFO - Started process (PID=295) to work on /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:56:20.232+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_ratings.py for tasks to queue
+[2025-04-10T18:56:20.241+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:56:20.240+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:56:20.297+0000] {processor.py:925} INFO - DAG(s) 'import_ratings_to_database' retrieved from /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:56:20.647+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:56:20.646+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-10T18:56:20.710+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:56:20.710+0000] {dag.py:4180} INFO - Setting next_dagrun for import_ratings_to_database to 2025-04-11 00:00:00+00:00, run_after=2025-04-12 00:00:00+00:00
+[2025-04-10T18:56:20.759+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_ratings.py took 0.552 seconds
+[2025-04-10T18:56:50.918+0000] {processor.py:186} INFO - Started process (PID=307) to work on /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:56:50.921+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_ratings.py for tasks to queue
+[2025-04-10T18:56:50.926+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:56:50.925+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:56:50.976+0000] {processor.py:925} INFO - DAG(s) 'import_ratings_to_database' retrieved from /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:56:51.345+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:56:51.344+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-10T18:56:51.403+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:56:51.403+0000] {dag.py:4180} INFO - Setting next_dagrun for import_ratings_to_database to 2025-04-11 00:00:00+00:00, run_after=2025-04-12 00:00:00+00:00
+[2025-04-10T18:56:51.456+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_ratings.py took 0.551 seconds
+[2025-04-10T18:57:21.864+0000] {processor.py:186} INFO - Started process (PID=319) to work on /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:57:21.867+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_ratings.py for tasks to queue
+[2025-04-10T18:57:21.872+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:57:21.871+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:57:21.915+0000] {processor.py:925} INFO - DAG(s) 'import_ratings_to_database' retrieved from /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:57:22.195+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:57:22.194+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-10T18:57:22.260+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:57:22.259+0000] {dag.py:4180} INFO - Setting next_dagrun for import_ratings_to_database to 2025-04-11 00:00:00+00:00, run_after=2025-04-12 00:00:00+00:00
+[2025-04-10T18:57:22.613+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_ratings.py took 0.762 seconds
+[2025-04-10T18:57:52.877+0000] {processor.py:186} INFO - Started process (PID=337) to work on /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:57:52.879+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_ratings.py for tasks to queue
+[2025-04-10T18:57:52.886+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:57:52.885+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:57:52.947+0000] {processor.py:925} INFO - DAG(s) 'import_ratings_to_database' retrieved from /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:57:53.257+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:57:53.257+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-10T18:57:53.712+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:57:53.712+0000] {dag.py:4180} INFO - Setting next_dagrun for import_ratings_to_database to 2025-04-11 00:00:00+00:00, run_after=2025-04-12 00:00:00+00:00
+[2025-04-10T18:57:53.763+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_ratings.py took 0.901 seconds
+[2025-04-10T18:58:24.134+0000] {processor.py:186} INFO - Started process (PID=349) to work on /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:58:24.137+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_ratings.py for tasks to queue
+[2025-04-10T18:58:24.142+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:58:24.141+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:58:24.193+0000] {processor.py:925} INFO - DAG(s) 'import_ratings_to_database' retrieved from /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:58:24.470+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:58:24.470+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-10T18:58:24.855+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:58:24.854+0000] {dag.py:4180} INFO - Setting next_dagrun for import_ratings_to_database to 2025-04-11 00:00:00+00:00, run_after=2025-04-12 00:00:00+00:00
+[2025-04-10T18:58:24.909+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_ratings.py took 0.792 seconds
+[2025-04-10T18:58:55.106+0000] {processor.py:186} INFO - Started process (PID=361) to work on /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:58:55.108+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_ratings.py for tasks to queue
+[2025-04-10T18:58:55.114+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:58:55.113+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:58:55.168+0000] {processor.py:925} INFO - DAG(s) 'import_ratings_to_database' retrieved from /opt/airflow/dags/etl_ratings.py
+[2025-04-10T18:58:55.451+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:58:55.450+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-10T18:58:55.504+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:58:55.504+0000] {dag.py:4180} INFO - Setting next_dagrun for import_ratings_to_database to 2025-04-11 00:00:00+00:00, run_after=2025-04-12 00:00:00+00:00
+[2025-04-10T18:58:55.555+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_ratings.py took 0.462 seconds

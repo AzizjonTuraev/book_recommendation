@@ -5,6 +5,7 @@ from datetime import datetime, timedelta
 
 from io import StringIO
 import csv
+# import os
 
 default_args = {
     "owner": "azizjon",
@@ -42,6 +43,7 @@ def load_csv_to_postgres_using_psycopg2(**context):
 with DAG(
     dag_id="import_ratings_to_database",
     default_args=default_args, 
+    # start_date=datetime(2025, 3, 21),
     start_date=datetime.today(),
     schedule_interval='0 0 * * *',
 ) as dag:

@@ -12,7 +12,8 @@ default_args = {
 with DAG(
     dag_id="create_table_if_not_exist",
     default_args=default_args, 
-    start_date=datetime(2025, 3, 21),
+    # start_date=datetime(2025, 3, 21),
+    start_date=datetime.today(),
     schedule_interval='@once'
 ) as dag:
 

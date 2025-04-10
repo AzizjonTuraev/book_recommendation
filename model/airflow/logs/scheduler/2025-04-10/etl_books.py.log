@@ -1,0 +1,182 @@
+[2025-04-10T18:45:58.197+0000] {processor.py:186} INFO - Started process (PID=46) to work on /opt/airflow/dags/etl_books.py
+[2025-04-10T18:45:58.201+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_books.py for tasks to queue
+[2025-04-10T18:45:58.208+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:45:58.207+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_books.py
+[2025-04-10T18:45:58.261+0000] {processor.py:925} INFO - DAG(s) 'import_books_to_database' retrieved from /opt/airflow/dags/etl_books.py
+[2025-04-10T18:45:58.761+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:45:58.760+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-10T18:45:58.853+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:45:58.852+0000] {dag.py:4180} INFO - Setting next_dagrun for import_books_to_database to 2025-04-11 00:00:00+00:00, run_after=2025-04-12 00:00:00+00:00
+[2025-04-10T18:45:58.922+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_books.py took 0.743 seconds
+[2025-04-10T18:46:29.418+0000] {processor.py:186} INFO - Started process (PID=59) to work on /opt/airflow/dags/etl_books.py
+[2025-04-10T18:46:29.422+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_books.py for tasks to queue
+[2025-04-10T18:46:29.427+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:46:29.426+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_books.py
+[2025-04-10T18:46:29.484+0000] {processor.py:925} INFO - DAG(s) 'import_books_to_database' retrieved from /opt/airflow/dags/etl_books.py
+[2025-04-10T18:46:29.808+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:46:29.807+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-10T18:46:29.873+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:46:29.872+0000] {dag.py:4180} INFO - Setting next_dagrun for import_books_to_database to 2025-04-11 00:00:00+00:00, run_after=2025-04-12 00:00:00+00:00
+[2025-04-10T18:46:29.932+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_books.py took 0.528 seconds
+[2025-04-10T18:47:01.024+0000] {processor.py:186} INFO - Started process (PID=71) to work on /opt/airflow/dags/etl_books.py
+[2025-04-10T18:47:01.027+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_books.py for tasks to queue
+[2025-04-10T18:47:01.034+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:47:01.033+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_books.py
+[2025-04-10T18:47:01.106+0000] {processor.py:925} INFO - DAG(s) 'import_books_to_database' retrieved from /opt/airflow/dags/etl_books.py
+[2025-04-10T18:47:01.379+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:47:01.378+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-10T18:47:01.434+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:47:01.434+0000] {dag.py:4180} INFO - Setting next_dagrun for import_books_to_database to 2025-04-11 00:00:00+00:00, run_after=2025-04-12 00:00:00+00:00
+[2025-04-10T18:47:01.485+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_books.py took 0.478 seconds
+[2025-04-10T18:47:32.172+0000] {processor.py:186} INFO - Started process (PID=83) to work on /opt/airflow/dags/etl_books.py
+[2025-04-10T18:47:32.179+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_books.py for tasks to queue
+[2025-04-10T18:47:32.208+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:47:32.205+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_books.py
+[2025-04-10T18:47:32.294+0000] {processor.py:925} INFO - DAG(s) 'import_books_to_database' retrieved from /opt/airflow/dags/etl_books.py
+[2025-04-10T18:47:32.602+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:47:32.601+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-10T18:47:32.660+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:47:32.659+0000] {dag.py:4180} INFO - Setting next_dagrun for import_books_to_database to 2025-04-11 00:00:00+00:00, run_after=2025-04-12 00:00:00+00:00
+[2025-04-10T18:47:32.721+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_books.py took 0.602 seconds
+[2025-04-10T18:48:03.149+0000] {processor.py:186} INFO - Started process (PID=95) to work on /opt/airflow/dags/etl_books.py
+[2025-04-10T18:48:03.152+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_books.py for tasks to queue
+[2025-04-10T18:48:03.157+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:48:03.157+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_books.py
+[2025-04-10T18:48:03.203+0000] {processor.py:925} INFO - DAG(s) 'import_books_to_database' retrieved from /opt/airflow/dags/etl_books.py
+[2025-04-10T18:48:03.452+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:48:03.452+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-10T18:48:03.498+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:48:03.497+0000] {dag.py:4180} INFO - Setting next_dagrun for import_books_to_database to 2025-04-11 00:00:00+00:00, run_after=2025-04-12 00:00:00+00:00
+[2025-04-10T18:48:03.538+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_books.py took 0.403 seconds
+[2025-04-10T18:48:33.943+0000] {processor.py:186} INFO - Started process (PID=107) to work on /opt/airflow/dags/etl_books.py
+[2025-04-10T18:48:33.946+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_books.py for tasks to queue
+[2025-04-10T18:48:33.952+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:48:33.951+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_books.py
+[2025-04-10T18:48:34.026+0000] {processor.py:925} INFO - DAG(s) 'import_books_to_database' retrieved from /opt/airflow/dags/etl_books.py
+[2025-04-10T18:48:34.313+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:48:34.313+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-10T18:48:34.368+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:48:34.367+0000] {dag.py:4180} INFO - Setting next_dagrun for import_books_to_database to 2025-04-11 00:00:00+00:00, run_after=2025-04-12 00:00:00+00:00
+[2025-04-10T18:48:34.411+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_books.py took 0.484 seconds
+[2025-04-10T18:49:04.859+0000] {processor.py:186} INFO - Started process (PID=119) to work on /opt/airflow/dags/etl_books.py
+[2025-04-10T18:49:04.862+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_books.py for tasks to queue
+[2025-04-10T18:49:04.869+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:49:04.868+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_books.py
+[2025-04-10T18:49:04.931+0000] {processor.py:925} INFO - DAG(s) 'import_books_to_database' retrieved from /opt/airflow/dags/etl_books.py
+[2025-04-10T18:49:05.289+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:49:05.288+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-10T18:49:05.363+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:49:05.362+0000] {dag.py:4180} INFO - Setting next_dagrun for import_books_to_database to 2025-04-11 00:00:00+00:00, run_after=2025-04-12 00:00:00+00:00
+[2025-04-10T18:49:05.699+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_books.py took 0.855 seconds
+[2025-04-10T18:49:35.977+0000] {processor.py:186} INFO - Started process (PID=131) to work on /opt/airflow/dags/etl_books.py
+[2025-04-10T18:49:35.980+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_books.py for tasks to queue
+[2025-04-10T18:49:35.986+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:49:35.985+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_books.py
+[2025-04-10T18:49:36.049+0000] {processor.py:925} INFO - DAG(s) 'import_books_to_database' retrieved from /opt/airflow/dags/etl_books.py
+[2025-04-10T18:49:36.411+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:49:36.411+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-10T18:49:36.761+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:49:36.760+0000] {dag.py:4180} INFO - Setting next_dagrun for import_books_to_database to 2025-04-11 00:00:00+00:00, run_after=2025-04-12 00:00:00+00:00
+[2025-04-10T18:49:36.814+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_books.py took 0.852 seconds
+[2025-04-10T18:50:07.132+0000] {processor.py:186} INFO - Started process (PID=147) to work on /opt/airflow/dags/etl_books.py
+[2025-04-10T18:50:07.135+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_books.py for tasks to queue
+[2025-04-10T18:50:07.140+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:50:07.139+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_books.py
+[2025-04-10T18:50:07.180+0000] {processor.py:925} INFO - DAG(s) 'import_books_to_database' retrieved from /opt/airflow/dags/etl_books.py
+[2025-04-10T18:50:07.444+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:50:07.443+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-10T18:50:07.490+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:50:07.489+0000] {dag.py:4180} INFO - Setting next_dagrun for import_books_to_database to 2025-04-11 00:00:00+00:00, run_after=2025-04-12 00:00:00+00:00
+[2025-04-10T18:50:07.542+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_books.py took 0.422 seconds
+[2025-04-10T18:50:37.742+0000] {processor.py:186} INFO - Started process (PID=163) to work on /opt/airflow/dags/etl_books.py
+[2025-04-10T18:50:37.744+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_books.py for tasks to queue
+[2025-04-10T18:50:37.750+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:50:37.749+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_books.py
+[2025-04-10T18:50:37.801+0000] {processor.py:925} INFO - DAG(s) 'import_books_to_database' retrieved from /opt/airflow/dags/etl_books.py
+[2025-04-10T18:50:38.047+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:50:38.047+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-10T18:50:38.093+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:50:38.092+0000] {dag.py:4180} INFO - Setting next_dagrun for import_books_to_database to 2025-04-11 00:00:00+00:00, run_after=2025-04-12 00:00:00+00:00
+[2025-04-10T18:50:38.141+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_books.py took 0.412 seconds
+[2025-04-10T18:51:08.640+0000] {processor.py:186} INFO - Started process (PID=175) to work on /opt/airflow/dags/etl_books.py
+[2025-04-10T18:51:08.643+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_books.py for tasks to queue
+[2025-04-10T18:51:08.650+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:51:08.650+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_books.py
+[2025-04-10T18:51:08.701+0000] {processor.py:925} INFO - DAG(s) 'import_books_to_database' retrieved from /opt/airflow/dags/etl_books.py
+[2025-04-10T18:51:09.027+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:51:09.027+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-10T18:51:09.105+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:51:09.104+0000] {dag.py:4180} INFO - Setting next_dagrun for import_books_to_database to 2025-04-11 00:00:00+00:00, run_after=2025-04-12 00:00:00+00:00
+[2025-04-10T18:51:09.169+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_books.py took 0.544 seconds
+[2025-04-10T18:51:39.654+0000] {processor.py:186} INFO - Started process (PID=187) to work on /opt/airflow/dags/etl_books.py
+[2025-04-10T18:51:39.656+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_books.py for tasks to queue
+[2025-04-10T18:51:39.663+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:51:39.662+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_books.py
+[2025-04-10T18:51:39.714+0000] {processor.py:925} INFO - DAG(s) 'import_books_to_database' retrieved from /opt/airflow/dags/etl_books.py
+[2025-04-10T18:51:40.063+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:51:40.063+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-10T18:51:40.128+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:51:40.128+0000] {dag.py:4180} INFO - Setting next_dagrun for import_books_to_database to 2025-04-11 00:00:00+00:00, run_after=2025-04-12 00:00:00+00:00
+[2025-04-10T18:51:40.464+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_books.py took 0.826 seconds
+[2025-04-10T18:52:11.088+0000] {processor.py:186} INFO - Started process (PID=199) to work on /opt/airflow/dags/etl_books.py
+[2025-04-10T18:52:11.091+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_books.py for tasks to queue
+[2025-04-10T18:52:11.099+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:52:11.098+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_books.py
+[2025-04-10T18:52:11.152+0000] {processor.py:925} INFO - DAG(s) 'import_books_to_database' retrieved from /opt/airflow/dags/etl_books.py
+[2025-04-10T18:52:11.481+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:52:11.480+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-10T18:52:11.811+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:52:11.811+0000] {dag.py:4180} INFO - Setting next_dagrun for import_books_to_database to 2025-04-11 00:00:00+00:00, run_after=2025-04-12 00:00:00+00:00
+[2025-04-10T18:52:11.864+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_books.py took 0.794 seconds
+[2025-04-10T18:52:42.066+0000] {processor.py:186} INFO - Started process (PID=211) to work on /opt/airflow/dags/etl_books.py
+[2025-04-10T18:52:42.069+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_books.py for tasks to queue
+[2025-04-10T18:52:42.076+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:52:42.075+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_books.py
+[2025-04-10T18:52:42.127+0000] {processor.py:925} INFO - DAG(s) 'import_books_to_database' retrieved from /opt/airflow/dags/etl_books.py
+[2025-04-10T18:52:42.477+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:52:42.476+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-10T18:52:42.939+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:52:42.938+0000] {dag.py:4180} INFO - Setting next_dagrun for import_books_to_database to 2025-04-11 00:00:00+00:00, run_after=2025-04-12 00:00:00+00:00
+[2025-04-10T18:52:43.010+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_books.py took 0.965 seconds
+[2025-04-10T18:53:13.976+0000] {processor.py:186} INFO - Started process (PID=223) to work on /opt/airflow/dags/etl_books.py
+[2025-04-10T18:53:13.979+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_books.py for tasks to queue
+[2025-04-10T18:53:13.985+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:53:13.984+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_books.py
+[2025-04-10T18:53:14.037+0000] {processor.py:925} INFO - DAG(s) 'import_books_to_database' retrieved from /opt/airflow/dags/etl_books.py
+[2025-04-10T18:53:14.340+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:53:14.339+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-10T18:53:14.396+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:53:14.395+0000] {dag.py:4180} INFO - Setting next_dagrun for import_books_to_database to 2025-04-11 00:00:00+00:00, run_after=2025-04-12 00:00:00+00:00
+[2025-04-10T18:53:14.449+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_books.py took 0.486 seconds
+[2025-04-10T18:53:44.704+0000] {processor.py:186} INFO - Started process (PID=234) to work on /opt/airflow/dags/etl_books.py
+[2025-04-10T18:53:44.708+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_books.py for tasks to queue
+[2025-04-10T18:53:44.714+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:53:44.713+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_books.py
+[2025-04-10T18:53:44.774+0000] {processor.py:925} INFO - DAG(s) 'import_books_to_database' retrieved from /opt/airflow/dags/etl_books.py
+[2025-04-10T18:53:45.076+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:53:45.075+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-10T18:53:45.135+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:53:45.134+0000] {dag.py:4180} INFO - Setting next_dagrun for import_books_to_database to 2025-04-11 00:00:00+00:00, run_after=2025-04-12 00:00:00+00:00
+[2025-04-10T18:53:45.190+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_books.py took 0.501 seconds
+[2025-04-10T18:54:15.457+0000] {processor.py:186} INFO - Started process (PID=246) to work on /opt/airflow/dags/etl_books.py
+[2025-04-10T18:54:15.459+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_books.py for tasks to queue
+[2025-04-10T18:54:15.466+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:54:15.465+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_books.py
+[2025-04-10T18:54:15.513+0000] {processor.py:925} INFO - DAG(s) 'import_books_to_database' retrieved from /opt/airflow/dags/etl_books.py
+[2025-04-10T18:54:15.824+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:54:15.823+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-10T18:54:15.874+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:54:15.874+0000] {dag.py:4180} INFO - Setting next_dagrun for import_books_to_database to 2025-04-11 00:00:00+00:00, run_after=2025-04-12 00:00:00+00:00
+[2025-04-10T18:54:15.929+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_books.py took 0.486 seconds
+[2025-04-10T18:54:46.210+0000] {processor.py:186} INFO - Started process (PID=258) to work on /opt/airflow/dags/etl_books.py
+[2025-04-10T18:54:46.213+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_books.py for tasks to queue
+[2025-04-10T18:54:46.220+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:54:46.219+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_books.py
+[2025-04-10T18:54:46.275+0000] {processor.py:925} INFO - DAG(s) 'import_books_to_database' retrieved from /opt/airflow/dags/etl_books.py
+[2025-04-10T18:54:46.567+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:54:46.566+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-10T18:54:46.621+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:54:46.620+0000] {dag.py:4180} INFO - Setting next_dagrun for import_books_to_database to 2025-04-11 00:00:00+00:00, run_after=2025-04-12 00:00:00+00:00
+[2025-04-10T18:54:46.952+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_books.py took 0.759 seconds
+[2025-04-10T18:55:17.843+0000] {processor.py:186} INFO - Started process (PID=270) to work on /opt/airflow/dags/etl_books.py
+[2025-04-10T18:55:17.847+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_books.py for tasks to queue
+[2025-04-10T18:55:17.854+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:55:17.853+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_books.py
+[2025-04-10T18:55:17.913+0000] {processor.py:925} INFO - DAG(s) 'import_books_to_database' retrieved from /opt/airflow/dags/etl_books.py
+[2025-04-10T18:55:18.198+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:55:18.198+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-10T18:55:18.496+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:55:18.495+0000] {dag.py:4180} INFO - Setting next_dagrun for import_books_to_database to 2025-04-11 00:00:00+00:00, run_after=2025-04-12 00:00:00+00:00
+[2025-04-10T18:55:18.546+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_books.py took 0.718 seconds
+[2025-04-10T18:55:49.048+0000] {processor.py:186} INFO - Started process (PID=282) to work on /opt/airflow/dags/etl_books.py
+[2025-04-10T18:55:49.051+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_books.py for tasks to queue
+[2025-04-10T18:55:49.058+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:55:49.057+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_books.py
+[2025-04-10T18:55:49.105+0000] {processor.py:925} INFO - DAG(s) 'import_books_to_database' retrieved from /opt/airflow/dags/etl_books.py
+[2025-04-10T18:55:49.407+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:55:49.407+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-10T18:55:49.463+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:55:49.462+0000] {dag.py:4180} INFO - Setting next_dagrun for import_books_to_database to 2025-04-11 00:00:00+00:00, run_after=2025-04-12 00:00:00+00:00
+[2025-04-10T18:55:49.518+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_books.py took 0.485 seconds
+[2025-04-10T18:56:20.216+0000] {processor.py:186} INFO - Started process (PID=294) to work on /opt/airflow/dags/etl_books.py
+[2025-04-10T18:56:20.220+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_books.py for tasks to queue
+[2025-04-10T18:56:20.230+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:56:20.228+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_books.py
+[2025-04-10T18:56:20.288+0000] {processor.py:925} INFO - DAG(s) 'import_books_to_database' retrieved from /opt/airflow/dags/etl_books.py
+[2025-04-10T18:56:20.628+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:56:20.627+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-10T18:56:20.687+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:56:20.686+0000] {dag.py:4180} INFO - Setting next_dagrun for import_books_to_database to 2025-04-11 00:00:00+00:00, run_after=2025-04-12 00:00:00+00:00
+[2025-04-10T18:56:20.738+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_books.py took 0.548 seconds
+[2025-04-10T18:56:50.888+0000] {processor.py:186} INFO - Started process (PID=306) to work on /opt/airflow/dags/etl_books.py
+[2025-04-10T18:56:50.891+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_books.py for tasks to queue
+[2025-04-10T18:56:50.897+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:56:50.896+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_books.py
+[2025-04-10T18:56:50.977+0000] {processor.py:925} INFO - DAG(s) 'import_books_to_database' retrieved from /opt/airflow/dags/etl_books.py
+[2025-04-10T18:56:51.334+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:56:51.334+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-10T18:56:51.395+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:56:51.394+0000] {dag.py:4180} INFO - Setting next_dagrun for import_books_to_database to 2025-04-11 00:00:00+00:00, run_after=2025-04-12 00:00:00+00:00
+[2025-04-10T18:56:51.456+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_books.py took 0.580 seconds
+[2025-04-10T18:57:21.851+0000] {processor.py:186} INFO - Started process (PID=318) to work on /opt/airflow/dags/etl_books.py
+[2025-04-10T18:57:21.854+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_books.py for tasks to queue
+[2025-04-10T18:57:21.859+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:57:21.859+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_books.py
+[2025-04-10T18:57:21.905+0000] {processor.py:925} INFO - DAG(s) 'import_books_to_database' retrieved from /opt/airflow/dags/etl_books.py
+[2025-04-10T18:57:22.182+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:57:22.182+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-10T18:57:22.239+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:57:22.238+0000] {dag.py:4180} INFO - Setting next_dagrun for import_books_to_database to 2025-04-11 00:00:00+00:00, run_after=2025-04-12 00:00:00+00:00
+[2025-04-10T18:57:22.581+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_books.py took 0.743 seconds
+[2025-04-10T18:57:52.863+0000] {processor.py:186} INFO - Started process (PID=330) to work on /opt/airflow/dags/etl_books.py
+[2025-04-10T18:57:52.865+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_books.py for tasks to queue
+[2025-04-10T18:57:52.874+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:57:52.873+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_books.py
+[2025-04-10T18:57:52.932+0000] {processor.py:925} INFO - DAG(s) 'import_books_to_database' retrieved from /opt/airflow/dags/etl_books.py
+[2025-04-10T18:57:53.284+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:57:53.283+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-10T18:57:53.777+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:57:53.776+0000] {dag.py:4180} INFO - Setting next_dagrun for import_books_to_database to 2025-04-11 00:00:00+00:00, run_after=2025-04-12 00:00:00+00:00
+[2025-04-10T18:57:53.832+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_books.py took 0.988 seconds
+[2025-04-10T18:58:24.114+0000] {processor.py:186} INFO - Started process (PID=348) to work on /opt/airflow/dags/etl_books.py
+[2025-04-10T18:58:24.117+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_books.py for tasks to queue
+[2025-04-10T18:58:24.123+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:58:24.122+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_books.py
+[2025-04-10T18:58:24.180+0000] {processor.py:925} INFO - DAG(s) 'import_books_to_database' retrieved from /opt/airflow/dags/etl_books.py
+[2025-04-10T18:58:24.455+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:58:24.454+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-10T18:58:24.751+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:58:24.750+0000] {dag.py:4180} INFO - Setting next_dagrun for import_books_to_database to 2025-04-11 00:00:00+00:00, run_after=2025-04-12 00:00:00+00:00
+[2025-04-10T18:58:24.799+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_books.py took 0.699 seconds
+[2025-04-10T18:58:55.091+0000] {processor.py:186} INFO - Started process (PID=360) to work on /opt/airflow/dags/etl_books.py
+[2025-04-10T18:58:55.093+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl_books.py for tasks to queue
+[2025-04-10T18:58:55.101+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:58:55.100+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl_books.py
+[2025-04-10T18:58:55.162+0000] {processor.py:925} INFO - DAG(s) 'import_books_to_database' retrieved from /opt/airflow/dags/etl_books.py
+[2025-04-10T18:58:55.453+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:58:55.453+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-10T18:58:55.512+0000] {logging_mixin.py:190} INFO - [2025-04-10T18:58:55.511+0000] {dag.py:4180} INFO - Setting next_dagrun for import_books_to_database to 2025-04-11 00:00:00+00:00, run_after=2025-04-12 00:00:00+00:00
+[2025-04-10T18:58:55.562+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl_books.py took 0.484 seconds

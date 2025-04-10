@@ -1,5 +1,6 @@
 from airflow import DAG
 from airflow.operators.python import PythonOperator
+# import os
 from airflow.providers.postgres.hooks.postgres import PostgresHook
 from datetime import datetime, timedelta
 
@@ -42,6 +43,7 @@ def load_users_to_postgres(**context):
 with DAG(
     dag_id="import_users_to_database",
     default_args=default_args, 
+    # start_date=datetime(2025, 3, 21),
     start_date=datetime.today(),
     schedule_interval='0 0 * * *',
 ) as dag:
