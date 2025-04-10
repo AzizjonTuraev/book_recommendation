@@ -174,6 +174,9 @@ recommendation_books/
 ### Apache Airflow - ETL
 ![Screenshot](temp/pics/airflow_dags.png)
 
+### Apache Airflow - ETL Python Code
+![Screenshot](temp/pics/airflow_etl_codes.png)
+
 ### SQL Server
 ![Screenshot](temp/pics/checking_for_sql_database.png)
 
